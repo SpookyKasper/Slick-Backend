@@ -1,24 +1,35 @@
-# README
+# Slick Messenger - A Slack Clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Slick is a messaging app built with **Rails** (backend) and **React** (frontend), inspired by Slack. Users can send direct messages to each other, update their profiles, and upload profile pictures. This project demonstrates a full-stack approach with Rails as the backend API and React for the frontend.
 
-Things you may want to cover:
+## Features
+- **User authentication** with email and password using **Devise** and **JWT** (JSON Web Tokens).
+- **Send and receive direct messages** between users.
+- **Profile management**: Users can update their profile information and upload a profile picture using Active Storage.
 
-* Ruby version
+## Technologies Used
+- **Frontend**: React.
+- **Backend**: Ruby on Rails, **Devise-JWT** (for JSON Web Token authentication), Active Storage (for handling file uploads).
+- **Database**: PostgreSQL.
+- **Authentication**: Devise-JWT for token-based authentication.
+- **Deployment**: Render (backend) and Netlify (frontend) for hosting.
 
-* System dependencies
+## Live Demo
+You can view the live versions below:
 
-* Configuration
+- **Frontend (React)**: [Live Demo](https://slick-messenger.netlify.app/signin)
 
-* Database creation
+Feel free to try out the app by signing up, updating your profile, and sending messages!
 
-* Database initialization
+## Screenshots
+*(Add screenshots)*
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contributing
 
-* Deployment instructions
+Feel free to fork this project, open issues, or submit pull requests. Contributions are welcome!
 
-* ...
+## Acknowledgements
+- Inspiration: Slack for the user interface and messaging functionality.
+- Technologies: Rails, React, Devise-JWT, PostgreSQL, Active Storage.
+
